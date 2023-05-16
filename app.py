@@ -81,7 +81,7 @@ def main():
        num_arr = [No_vehicles,No_casualties,Hour]
        pred_arr = np.array(num_arr + encoded_arr).reshape(1,-1)        
       
-# predict the target from all the input features
+    # predict the target from all the input features
        prediction = model.predict(pred_arr)
         
        if prediction == 0:
