@@ -115,5 +115,5 @@ def main():
             st.markdown("Please find GitHub repository link of project: [Click Here](https://github.com/avikumart/Road-Traffic-Severity-Classification-Project)")          
         
         # run the main function        
-        if __name__ == '__main__':
+            if __name__ == '__main__':
             main()
